@@ -15,3 +15,11 @@
 .carousel-indicators .active {
   background-color: #222;
 }
+ body {
+   background-color:#fcf2df;
+   margin-bottom: 100px;
+   background-image: url('http://lorempixel.com/1200/100');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center bottom;
+ }
