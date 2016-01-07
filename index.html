@@ -18,7 +18,11 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
+    carousel
+    2 rows of content
+    footer
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -29,7 +33,7 @@
           </button>
           <a class="navbar-brand" href="#">Epivacation!</a>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Accomodations</a></li>
@@ -38,6 +42,36 @@
         </div>
       </div>
     </nav>
+    <!-- end navbar -->
+
+    <!-- carousel -->
+    <div id="myCarousel" class="carousel slide jumbotron">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="http://lorempixel.com/500/400">
+          </div>
+          <div class="item">
+            <img src="http://lorempixel.com/600/400">
+          </div>
+          <div class="item">
+            <img src="http://lorempixel.com/700/400">          
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+    </div>
+    <!-- end carousel -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -1,0 +1,17 @@
+.navbar-brand {
+  color:rgba(255,255,0,.8) !important;
+}
+
+.item img {
+  margin: auto;
+}
+.carousel-indicators {
+
+  bottom:0;
+}
+.carousel-indicators li {
+  border-color: #222;
+}
+.carousel-indicators .active {
+  background-color: #222;
+}
