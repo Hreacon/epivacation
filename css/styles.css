@@ -24,3 +24,10 @@
    background-attachment: fixed;
    background-position: center bottom;
  }
+.bg-scroll {
+  background: red ;
+  height:100%;
+  width: 10%;
+  animation: .4s linear 0s 300 alternate move_eye;
+}
+@keyframes move_eye { from { margin-left: -10%; } to { margin-left:100%; } }
